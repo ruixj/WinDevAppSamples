@@ -1,0 +1,28 @@
+﻿Build started 2015/10/24 17:53:38.
+     1>Project "D:\Technology\Windows\WindowsDevelop\DynamicDialog_demo\TestDynDialog_changed\TestDynDialog.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug/TestDynDialog.pch" /Fo".\Debug/" /Fd".\Debug/vc110.pdb" /Gd /TP /analyze- /errorReport:prompt DynDialogEx.cpp
+         DynDialogEx.cpp
+     1>d:\technology\windows\windowsdevelop\dynamicdialog_demo\testdyndialog_changed\dyndialogex.cpp(135): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\technology\windows\windowsdevelop\dynamicdialog_demo\testdyndialog_changed\dyndialogex.cpp(210): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(110) : see declaration of 'strcpy'
+     1>d:\technology\windows\windowsdevelop\dynamicdialog_demo\testdyndialog_changed\dyndialogex.cpp(567): warning C4101: 'cx' : unreferenced local variable
+     1>d:\technology\windows\windowsdevelop\dynamicdialog_demo\testdyndialog_changed\dyndialogex.cpp(567): warning C4101: 'cy' : unreferenced local variable
+     1>d:\technology\windows\windowsdevelop\dynamicdialog_demo\testdyndialog_changed\dyndialogex.cpp(569): warning C4189: 'wMessageID' : local variable is initialized but not referenced
+     1>d:\technology\windows\windowsdevelop\dynamicdialog_demo\testdyndialog_changed\dyndialogex.cpp(627): warning C4100: 'lParam' : unreferenced formal parameter
+     1>d:\technology\windows\windowsdevelop\dynamicdialog_demo\testdyndialog_changed\dyndialogex.cpp(627): warning C4100: 'wParam' : unreferenced formal parameter
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/TestDynDialog.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug/TestDynDialog.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\TestDynDialog.lib" /MACHINE:X86 /SAFESEH .\Debug\TestDynDialog.res
+         .\Debug/DynDialogEx.obj
+         .\Debug/DynDialogItemEx.obj
+         .\Debug/ListDynDialogEx.obj
+         .\Debug/StdAfx.obj
+         .\Debug/TestDynDialog.obj
+         .\Debug/TestDynDialogDlg.obj
+         TestDynDialog.vcxproj -> D:\Technology\Windows\WindowsDevelop\DynamicDialog_demo\TestDynDialog_changed\.\Debug\TestDynDialog.exe
+     1>Done Building Project "D:\Technology\Windows\WindowsDevelop\DynamicDialog_demo\TestDynDialog_changed\TestDynDialog.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06
